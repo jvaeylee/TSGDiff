@@ -1,0 +1,50 @@
+# config/stock.yaml
+# 文件路径配置(File path configuration)
+data_file: './datasets/stock_data.csv'
+output_dir: './output'
+
+# 切片参数(Patch parameters)
+slide_win: 48
+slide_stride: 1
+
+# 峰值检测参数(Peak detection parameters)
+peak_height_coeff: 0.01
+peak_dist_coeff: 0.01
+near_zero_threshold: 0
+
+# 图神经网络参数(GNN parameters)
+hidden_dim: 1600
+embed_dim: 1600
+
+# 使用第几个周期生成边（Generate edges using the number of cycles）
+use_period_index: 2
+
+# GraphVAE 参数(GraphVAE parameters)
+batch_size: 128
+epochs: 500
+learning_rate: 0.01
+
+# 数据标准化参数(Data standardization parameters)
+normalize_data: true
+feature_range: [-1, 1]
+
+# 固定KL权重(KL weight)
+kl_weight: 0.2
+
+# Diffusion损失权重(Denoising loss weight)
+diffusion_weight: 1.0
+
+# Diffusion Model 参数(Diffusion Model parameters)
+num_timesteps: 1000
+beta_start: 0.0001
+beta_end: 0.02
+
+# Diffusion Block参数(Diffusion Block parameters)
+nblocks: 3
+nunits: 64
+
+# 新增参数k(New parameter k)
+k: 2
+
+# Fourier损失权重(Fourier loss weight)
+ff_weight: 4.381780460041327  # math.sqrt(48) / 5
