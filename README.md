@@ -16,6 +16,15 @@ See [requirements.txt](requirements.txt) for details.
 
 The model is designed for time series, and the data set used is shown in the [datasets](datasets) directory.
 
+## 📊 Results
+
+Results are automatically saved to:
+
+- **Original data**: `output/original_data.npy`
+- **Generated data**: `output/generated_data.npy`
+- **Visualizations**: `output/visualizations/`
+- **Evaluation metrics**: `output/metrics.txt`
+
 ## 📝 Citation
 
 If you use this code in your research, please cite:
