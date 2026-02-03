@@ -14,7 +14,7 @@ See [requirements.txt](requirements.txt) for details.
 
 ## 📊 Dataset
 
-The model is designed for time series, and the data set used is shown in the [datasets](datasets) directory.
+The model is designed for time series generation, and the data set used is shown in the [datasets](datasets) directory.
 
 ## ⚙️ Configuration
 
