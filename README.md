@@ -69,7 +69,7 @@ TSGDiff/
 ├── config/
 │   └── *.yaml                       # Scene/dataset-specific configuration files
 └── datasets/
-    └── *.csv                  # Temporal-spatial graph datasets
+    └── *.csv                        # Temporal-spatial graph datasets
 ```
 
 ## 📝 Citation
