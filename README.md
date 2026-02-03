@@ -16,6 +16,19 @@ See [requirements.txt](requirements.txt) for details.
 
 The model is designed for time series, and the data set used is shown in the [datasets](datasets) directory.
 
+## 📝 Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@inproceedings{TSGDiff,
+  title={TSGDiff: Rethinking Synthetic Time Series Generation from a Pure Graph Perspective},
+  author={Shen, Lifeng and Li, Xuyang and Long, Lele},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}
+```
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
